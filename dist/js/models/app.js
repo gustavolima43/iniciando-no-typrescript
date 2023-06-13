@@ -1,1 +1,4 @@
-alert('oi')
+import { Negociacao } from "./negociacao.js";
+
+const negociacao = new Negociacao(new Date(), 10, 100);
+console.log(negociacao.data);
